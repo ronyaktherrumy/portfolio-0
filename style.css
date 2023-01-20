@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* mary worde er style */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    left: 235px;
+}
+
+/* je kunu jaygay ai colore use kora jabe */
+
+.primary-colore {
+    color: #FD6E0A
+}
+
+/* nav er vitor 2ta childe ase, h3 & ul */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    top: 51px;
+}
+
+/* list er style */
+nav li {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* nav er ul er style */
+nav ul {
+    display: flex;
+    /* li gulu center a asbe */
+    align-items: center;
+}
+
+/* button style */
+.btn-primary {
+    border: none;
+    background: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    margin: 15px;
+}
+
+/* ek sater 2 ta button theke 1 ta button */
+.btn-primary-1 {
+    width: 160px;
+    height: 64px;
+    left: 465px;
+    top: 598px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+}
+
+/* banner title */
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    left: 235px;
+    top: 306px;
+    margin: 5px;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    left: 235px;
+    top: 372px;
+    color: #181818;
+    margin: 20px;
+}
+
+/* banner section er position set kora  */
+.banner {
+    display: flex;
+    align-items: center;
+
+    top: 306px;
+    margin: 0px 200px;
+}
+
+/* full header er background colore & background pic */
+.header {
+    background-color: #f3f3e5;
+    background-image: url(../portfolio/images/header_bg.png), url(../portfolio/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section er styles start */
+.about {
+    width: 1140px;
+    height: 505px;
+    left: 230px;
+    top: 1012px;
+    background: #e3660d;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px  156px;
+
+}
+
+/* about me text er style */
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    /* Dark 03 */
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* section style end */
+
+.about-info{
+    display: flex;
+    text-align: center;
+    /* space-arund suru and sese soman jayga rakhe
+    r space-betwen suru ses maje sob jaygay soman jayga gaps dey */
+    justify-content: space-around;
+}
+
+.info{
+    font-size: 20px;
+line-height: 30px;
+
+}
+
+.infor{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #757575;
+}
+ 
